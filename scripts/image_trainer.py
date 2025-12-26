@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Standalone script for image model training (SDXL or Flux)
+image-yuyu
 """
 
 import argparse
