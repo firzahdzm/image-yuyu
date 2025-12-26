@@ -1,13 +1,13 @@
 #!/bin/bash
 
-TASK_ID="ec368f6f-0c39-4eed-9ac6-b86fd737007e"
-MODEL="stabilityai/stable-diffusion-xl-base-1.0"
-DATASET_ZIP="https://gradients.s3.eu-north-1.amazonaws.com/6bb9caa18a5cf01f_train_data.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVVZOOA7SA4UOFLPI%2F20251204%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20251204T075545Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=683150c72592fea7db2e7e6e652a2a463f07bda4e0fa48aecb987d37eb1767f4"
-MODEL_TYPE="sdxl"
-EXPECTED_REPO_NAME="ec368f6f-0c39-4eed-9ac6-b86fd737007e-repo1"
+TASK_ID="d89833dd-a5a5-4400-b13f-3bdb092daf45"
+MODEL="mikeyandfriends/PixelWave_FLUX.1-dev_03"
+DATASET_ZIP="https://gradients.s3.eu-north-1.amazonaws.com/8c1b7768a505f2ca_train_data.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVVZOOA7SA4UOFLPI%2F20251214%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20251214T084338Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=0059dca197cea926fdc5420716da60eebbb7b9f2d01176f64134c026cddb7634"
+MODEL_TYPE="flux"
+EXPECTED_REPO_NAME="test_flux-1"
 
-HUGGINGFACE_TOKEN="Your Huggingface Token"
-HUGGINGFACE_USERNAME="Your Huggingface Username"
+HUGGINGFACE_TOKEN=""
+HUGGINGFACE_USERNAME=""
 LOCAL_FOLDER="/app/checkpoints/$TASK_ID/$EXPECTED_REPO_NAME"
 
 CHECKPOINTS_DIR="$(pwd)/secure_checkpoints"
